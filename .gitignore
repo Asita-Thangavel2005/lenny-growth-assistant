@@ -34,4 +34,8 @@ tmp/
 .vscode/
 .idea/
 .DS_Store
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> origin/main
