@@ -1,0 +1,51 @@
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+:root {
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #20231f;
+  background: #fbfaf7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #769575;
+  outline-offset: 3px;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: #fff;
+  background: #56785a;
+}

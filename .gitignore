@@ -1,0 +1,37 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node and frontend build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Downloaded data and model caches
+data/raw/
+data/cache/
+data/embeddings/
+models/
+.cache/
+.huggingface/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
